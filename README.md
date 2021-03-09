@@ -58,6 +58,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Server side
 
+- [ ] Method for returning a particular search result not working
 - [ ] Every search returns same 10 results (update with classes later)
 
 ### Client side
