@@ -31,6 +31,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 #### data.js
 - [x] Created file!
 - [x] Added JSON object containing list of intended search results
+- [x] Changed "result" key to "subject"
 
 #### index.js
 - [x] Created file!
@@ -40,6 +41,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 #### model - result.js
 - [x] Created file!
+- [x] Constructed Result class and exported it
 
 ### Client side
 
