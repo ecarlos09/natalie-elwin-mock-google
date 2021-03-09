@@ -30,6 +30,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 #### data.js
 - [x] Created file!
+- [x] Added JSON object containing list of intended search results
 
 #### index.js
 - [x] Created file!
