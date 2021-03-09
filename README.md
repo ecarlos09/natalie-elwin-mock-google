@@ -35,9 +35,14 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 #### index.js
 - [x] Created file!
+- [x] Import server information and create request listener
 
 #### controller - results.js
 - [x] Created file!
+- [x] Create middleware instance
+- [x] Export router method
+- [x] Define method for retrieving all search results
+
 
 #### model - result.js
 - [x] Created file!
