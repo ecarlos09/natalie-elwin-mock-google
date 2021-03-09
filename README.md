@@ -25,6 +25,15 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Server side
 
+#### app.js
+- [x] Created file!
+
+#### data.js
+- [x] Created file!
+
+#### index.js
+- [x] Created file!
+
 ### Client side
 
 ***
@@ -33,7 +42,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Server side
 
-- [ ] example bug
+- [ ] Every search returns same 10 results (update with classes later)
 
 ### Client side
 
