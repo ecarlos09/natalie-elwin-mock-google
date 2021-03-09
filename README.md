@@ -63,7 +63,9 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Client side
 
-- [ ] 
+- [ ] Add event listeners for:
+    - [ ] Two buttons
+    - [ ] Hovering over the search bar
 
 ### Miscellaneous
 

@@ -4,7 +4,7 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 //Create new instances of required modules
 const app = express();
-app.use(bodyParser.json());
+// app.use(bodyParser.json());
 app.use(cors());
 
 //Import the controllers

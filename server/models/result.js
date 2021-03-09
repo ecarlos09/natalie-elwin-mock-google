@@ -8,18 +8,19 @@ class Result {
     }
 
     static get all() {
-        try {
-            const results = resultsData.map((result) => new Result(result));
-            return results;
-        } catch (err) {
-            throw new Error('Your search is invalid.  Come no further!');
-        }        
+        // try {
+        //     const results = resultsData.map((result) => new Result(result));
+        //     return results;
+        // } catch (err) {
+        //     throw new Error('Your search is invalid.  Come no further!');
+        // }
+        const results = resultsData.map((result) => new Result(result));
+        return results;        
     };
 
     static resultById(id) {
         try {
             const resultData = resultData.filter((result) => result.id === id)[0];
-            console.log(resultData);
             const result = new Result(resultData);
             return result;
         } catch(err) {
