@@ -6,6 +6,13 @@ const router = express.Router();
 const Result = require('../models/result');
 
 router.get('/', (req, res) => {
-    const resultsData = Result.all;
-    res.send(resultsData);
+    try {
+        const resultsData = Result.all;
+        console.log(res.send(resultsData));
+    } catch (err) {
+        console.log(err);
+        res.status(404).send(err);
+    };    
 });
+
+module.exports = router;

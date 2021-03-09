@@ -8,9 +8,13 @@ class Result {
     }
 
     static get all() {
-        const results = resultsData.map((result) => new Result(result));
-        return results;
-    }
+        try {
+            const results = resultsData.map((result) => new Result(result));
+            return results;
+        } catch (err) {
+            throw new Error('Your search is invalid.  Come no further!');
+        }        
+    };
 }
 
 module.exports = Result;
