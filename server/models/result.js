@@ -15,6 +15,16 @@ class Result {
             throw new Error('Your search is invalid.  Come no further!');
         }        
     };
+
+    static resultById(id) {
+        try {
+            const resultData = resultData.filter((result) => result.id === id)[0];
+            const result = new Result(resultData);
+            return result;
+        } catch(err) {
+            throw new Error('This is not the result you are looking for ...');
+        }
+    }
 }
 
 module.exports = Result;

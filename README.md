@@ -47,6 +47,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 #### model - result.js
 - [x] Created file!
 - [x] Constructed Result class and exported it
+- [x] Add static resultByID method to Result class
 
 ### Client side
 
