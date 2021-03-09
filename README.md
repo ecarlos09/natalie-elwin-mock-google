@@ -35,6 +35,12 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 #### index.js
 - [x] Created file!
 
+#### controller - results.js
+- [x] Created file!
+
+#### model - result.js
+- [x] Created file!
+
 ### Client side
 
 ***
