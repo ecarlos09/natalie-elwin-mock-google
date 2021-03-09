@@ -42,6 +42,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 - [x] Create middleware instance
 - [x] Export router method
 - [x] Define method for retrieving all search results
+- [x] Define method for retrieving a particular search result
 
 
 #### model - result.js
