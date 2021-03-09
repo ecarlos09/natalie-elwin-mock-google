@@ -18,7 +18,16 @@ router.get('/', (req, res) => {
 });
 
 //Retrieve a particular result
-
+router.get('/:id', (req, res) => {
+    try {
+        const resultId = parseInt(req.params.id);
+        const selectedResult = Result.resultById(resultId);
+        res.send(selectedResult);
+    } catch (err) {
+        console.log(err);
+        res.status(404).send(err);
+    }
+});
 
 
 module.exports = router;
