@@ -1,0 +1,129 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline black;
+}
+
+#nav-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    font-size: 14px;
+}
+
+#nav-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    font-size: 13px;
+}
+
+.container {
+    text-align: center;
+    margin-top: 140px;
+}
+
+#google-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.enter-btn {
+    padding: 8px;
+    margin: 11px 4px;
+    margin-right: 5px;
+    background-color: #F8F9FA;
+    border: none;
+    color: rgb(44, 44, 44);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+#enter-query {
+    width: 500px;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 5px;
+}
+
+.all-footer-items {
+    display: inline;
+}
+
+.footer1 {
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    padding-left: 20px;
+    bottom: 40px;
+    width: 100%;
+    padding: 12px;
+    margin-left: -7px;
+    border-bottom: 5px solid #dadce0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+/* .footer2 {
+    background-color: rgb(236, 236, 236);
+    position: fixed;
+    padding-left: 20px;
+    bottom: 0;
+    width: 100%;
+    padding: 12px;
+    margin-left: -7px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: grey;
+} */
+
+#nav-bottom-left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+/* #nav-bottom-center {
+    position: fixed;
+    bottom: 0;
+    display: block;
+} */
+
+#nav-bottom-right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+/* #center-this {
+    padding-left: 200px;
+} */
+
