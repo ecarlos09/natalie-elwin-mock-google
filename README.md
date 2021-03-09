@@ -75,8 +75,9 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Wins
 
-- ...
+- Basic server is up and running
+- Route for retrieving all search results is working
 
 ### Challenges
 
-- ...
+- Struggling to retrieve a partricular result
