@@ -8,11 +8,10 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Installation
 
-- Create new directory and clone the repo into it
+- Create new directory and fork/clone the repo into it
 - `code .` to open all files in VS Code or similar
-- `cd` into the server directory and `npm install express --save`
-- Install CORS as a dev dependency: `npm install cors --save-dev`
-- Install nodemon as a dev dependency: `npm install nodemon --save-dev`
+- `cd` into the server directory and `npm install` to install all dev dependencies
+- Repeat for client directory
 
 ### Usage
 
