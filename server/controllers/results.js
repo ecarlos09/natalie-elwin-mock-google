@@ -12,7 +12,7 @@ router.get('/', (req, res) => {
 });
 
 //Retrieve a particular result
-router.get('/:id', (req, res) => {
+router.get('/results', (req, res) => {
     try {
         const resultId = parseInt(req.params.id);
         console.log(resultId);
