@@ -14,7 +14,7 @@ app.get('/', (req, res) => {res.send('Fake Google up and running!')});
 const resultRoutes = require("../server/controllers/results");
 app.use('/results', resultRoutes);
 
-//Set up individual quote route
+//Set up individual result route
 app.get('/results:id', (req, res) => {
     res.send(resultRoutes[req.params.id]);
 })
