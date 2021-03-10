@@ -2,6 +2,8 @@
 
 Welcome to our coding challenge!  Please continue reading to see how we completed the task.
 
+We look forward to hearing your feedback!
+
 ***
 
 ## Installation and Usage
