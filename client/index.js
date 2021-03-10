@@ -17,11 +17,12 @@ function returnSearch(e) {
     fetch('http://localhost:3000/results')
     .then(res => res.json())
     .then(addResultsToPage)
-    .catch(err => console.warn('OH NO, something went wrong!', err))  
+    .catch(err => console.warn('OH NO, something went wrong!', err))
+}  
 
 function addResultsToPage(data) {
     document.getElementsByClassName('container').remove()
     
 }
-    id = "lucky-btn"
-    id = "sub-btn"
+    // id = "lucky-btn"
+    // id = "sub-btn"
