@@ -1,0 +1,154 @@
+/* Nav Bar */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    padding-right: 15px;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline black;
+}
+
+#nav-left {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 25px;
+    font-size: 14px;
+}
+
+#nav-right {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 25px;
+    font-size: 13px;
+}
+
+#blue-sub-btn {
+    background-color: #1A73E8;
+    padding: 9px 15px 9px 15px;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+#blue-sub-btn:hover {
+    background-color: #327fe2;
+}
+
+/* Body */
+
+.container {
+    text-align: center;
+    margin-top: 140px;
+  
+}
+
+#google-logo {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.enter-btn {
+    padding: 8px;
+    margin: 11px 4px;
+    margin-right: 5px;
+    background-color: #F8F9FA;
+    border: none;
+    color: rgb(44, 44, 44);
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+.enter-btn:hover {
+    border: solid rgb(190, 190, 190) 1px;
+}
+
+#enter-query {
+    width: 500px;
+    border: 1px solid #dbdbdb;
+    border-radius: 20px;
+    font-size: 14px;
+    padding: 12px;
+    padding-left: 40px;
+}
+
+#enter-query:hover {
+    border: 2px solid #dbdbdb;
+}
+
+/* Footer */
+
+.all-footer-items {
+    display: inline;
+}
+
+.footer1 {
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    padding-left: 30px;
+    bottom: 40px;
+    width: 100%;
+    padding: 15px;
+    margin-left: -7px;
+    border-bottom: 2px solid #dadce0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: grey;
+}
+
+#nav-bottom-left {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin: 10px;
+    font-size: 14px;
+    padding: 4px;
+}
+
+#nav-bottom-center {
+    position: fixed;
+    bottom: 0;
+    left: 41%;
+    padding: 5px;
+    margin: 5px;
+}
+
+#nav-bottom-right {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    margin: 10px;
+    font-size: 14px;
+    padding: 4px;
+}
+
+.grey-text {
+    color: grey;
+}
+
+/* Responsiveness */
+
+@media only screen and (max-width: 400px) {
+    .container {
+        width: 400px;
+    }
+  }
