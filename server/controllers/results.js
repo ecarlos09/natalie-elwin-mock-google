@@ -23,6 +23,7 @@ router.get('/', (req, res) => {
 router.get('/:id', (req, res) => {
     try {
         const resultId = parseInt(req.params.id);
+        console.log(resultId);
         const selectedResult = Result.resultById(resultId);
         res.send(selectedResult);
     } catch (err) {

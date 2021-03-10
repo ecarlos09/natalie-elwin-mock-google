@@ -20,7 +20,7 @@ class Result {
 
     static resultById(id) {
         try {
-            const resultData = resultData.filter((result) => result.id === id)[0];
+            const resultData = resultData.filter((result) => result[id] === id)[0];
             const result = new Result(resultData);
             return result;
         } catch(err) {
