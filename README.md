@@ -51,6 +51,12 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 - [x] Add static resultByID method to Result class
 
 ### Client side
+(full changelog to be added here)
+
+- [x] Basic layout and styling has been applied
+- [x] Header and footer links all work
+- [x] Search bar reacts to mouseover
+- [x] Buttons have been added (functionality still to be added)
 
 ***
 
@@ -65,7 +71,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 - [ ] Add event listeners for:
     - [ ] Two buttons
-    - [ ] Hovering over the search bar
+    - [x] Hovering over the search bar
 
 ### Miscellaneous
 
