@@ -8,11 +8,10 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Installation
 
-- Create new directory and clone the repo into it
+- Create new directory and fork/clone the repo into it
 - `code .` to open all files in VS Code or similar
-- `cd` into the server directory and `npm install express --save`
-- Install CORS as a dev dependency: `npm install cors --save-dev`
-- Install nodemon as a dev dependency: `npm install nodemon --save-dev`
+- `cd` into the server directory and `npm install` to install all dev dependencies
+- Repeat for client directory
 
 ### Usage
 
@@ -51,6 +50,12 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 - [x] Add static resultByID method to Result class
 
 ### Client side
+(full changelog to be added here)
+
+- [x] Basic layout and styling has been applied
+- [x] Header and footer links all work
+- [x] Search bar reacts to mouseover
+- [x] Buttons have been added (functionality still to be added)
 
 ***
 
@@ -58,14 +63,14 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Server side
 
-- [ ] Method for returning a particular search result not working
+- [ ] Method for returning a particular search result returns all search results
 - [ ] Every search returns same 10 results (update with classes later)
 
 ### Client side
 
 - [ ] Add event listeners for:
     - [ ] Two buttons
-    - [ ] Hovering over the search bar
+    - [x] Hovering over the search bar
 
 ### Miscellaneous
 
@@ -79,7 +84,9 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 - Basic server is up and running
 - Route for retrieving all search results is working
+- Client side looks great!
 
 ### Challenges
 
-- Struggling to retrieve a partricular result
+- Struggling to retrieve a particular result
+- Struggling to get the search results to display on submit

@@ -15,9 +15,8 @@ router.get('/', (req, res) => {
 router.get('/results', (req, res) => {
     try {
         const resultId = parseInt(req.params.id);
-        console.log(resultId);
         const selectedResult = Result.resultById(resultId);
-        res.send(selectedResult);
+        res.status(200).send(selectedResult);
     } catch (err) {
         console.log(err);
         res.status(404).send(err);
