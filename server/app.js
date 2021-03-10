@@ -16,7 +16,4 @@ const resultRoutes = require("../server/controllers/results");
 //Set up results route
 app.use('/results', resultRoutes);
 
-//Set up individual result route
-app.use('/results/:id', resultRoutes)
-
 module.exports = app;
