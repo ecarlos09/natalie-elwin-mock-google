@@ -1,6 +1,5 @@
 //Require express and create instance of router middleware
 const express = require('express');
-const { route } = require('../app');
 const router = express.Router();
 
 //Import the Result class and set up route
