@@ -30,9 +30,25 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 #### data.js
 - [x] Created file!
+- [x] Added JSON object containing list of intended search results
+- [x] Changed "result" key to "subject"
 
 #### index.js
 - [x] Created file!
+- [x] Import server information and create request listener
+
+#### controller - results.js
+- [x] Created file!
+- [x] Create middleware instance
+- [x] Export router method
+- [x] Define method for retrieving all search results
+- [x] Define method for retrieving a particular search result
+
+
+#### model - result.js
+- [x] Created file!
+- [x] Constructed Result class and exported it
+- [x] Add static resultByID method to Result class
 
 ### Client side
 
@@ -42,11 +58,14 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Server side
 
+- [ ] Method for returning a particular search result not working
 - [ ] Every search returns same 10 results (update with classes later)
 
 ### Client side
 
-- [ ] 
+- [ ] Add event listeners for:
+    - [ ] Two buttons
+    - [ ] Hovering over the search bar
 
 ### Miscellaneous
 
@@ -58,8 +77,9 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Wins
 
-- ...
+- Basic server is up and running
+- Route for retrieving all search results is working
 
 ### Challenges
 
-- ...
+- Struggling to retrieve a partricular result
