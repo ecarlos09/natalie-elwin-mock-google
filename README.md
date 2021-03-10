@@ -58,7 +58,7 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 ### Server side
 
-- [ ] Method for returning a particular search result not working
+- [ ] Method for returning a particular search result returns all search results
 - [ ] Every search returns same 10 results (update with classes later)
 
 ### Client side
@@ -79,7 +79,9 @@ Welcome to our coding challenge!  Please continue reading to see how we complete
 
 - Basic server is up and running
 - Route for retrieving all search results is working
+- Client side looks great!
 
 ### Challenges
 
-- Struggling to retrieve a partricular result
+- Struggling to retrieve a particular result
+- Struggling to get the search results to display on submit

@@ -12,11 +12,11 @@ app.get('/', (req, res) => {res.send('Fake Google up and running!')});
 
 //Import the controllers
 const resultRoutes = require("../server/controllers/results");
+
+//Set up results route
 app.use('/results', resultRoutes);
 
-//Set up individual quote route
-app.get('/results:id', (req, res) => {
-    res.send(resultRoutes[req.params.id]);
-})
+//Set up individual result route
+app.use('/results/:id', resultRoutes)
 
 module.exports = app;
